@@ -153,122 +153,15 @@
                             </ul>
                         </div>
                     </ul>
-                    
+
                 </div>
             </div>
         </div>
         <div class="container well">
             <div class="row">
                 <div class="col-lg-3">
-    <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                        <span class="glyphicon glyphicon-dashboard">
-                        </span>Dashboard
-                    </a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
-                <div class="panel-body">
-                    <table class="table">
-                        <tr><td><span class="glyphicon glyphicon-pencil text-primary"></span><a style="color: whitesmoke" href="#">Master Data Verification</a></td></tr>                        
-                    </table>
+                    <%@include file="pages/navbar.jsp" %>
                 </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-usd">
-                        </span>ATM</a>
-                </h4>
-            </div>
-            <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <table class="table">
-                        <tr><td><a style="color: whitesmoke" href="#">Cash Forecasting</a></td></tr>
-                        <tr><td><a style="color: whitesmoke" href="#">Reconciliation</a></td></tr>
-                        <tr><td><a style="color: whitesmoke" href="#">VLE Invoice</a></td></tr>
-                        <tr><td><a style="color: whitesmoke" href="#">Project Management</a></td></tr>
-                        <tr><td><a style="color: whitesmoke" href="#">Cash Management</a></td></tr>
-                        <tr><td><a style="color: whitesmoke" href="#">Replenishment</a></td></tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-user">
-                        </span>FI</a>
-                </h4>
-            </div>
-            <div id="collapseThree" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <table class="table">
-                        <tr><td><a style="color: whitesmoke" href="#">Change Password</a></td></tr>
-                        <tr><td><a style="color: whitesmoke" href="#">Notifications</a> <span class="label label-info">5</span></td></tr>
-                        <tr><td><a style="color: whitesmoke" href="#">Import/Export</a></td></tr>
-                        <tr><td><span class="glyphicon glyphicon-trash text-danger"></span><a href="#" class="text-danger">Delete Account</a></td></tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-file">
-                        </span>G2C</a>
-                </h4>
-            </div>
-            <div id="collapseFour" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <table class="table">
-                        <tr><td><span class="glyphicon glyphicon-usd"></span><a href="#">Sales</a></td></tr>
-                        <tr><td><span class="glyphicon glyphicon-user"></span><a href="#">Customers</a></td></tr>
-                        <tr><td><span class="glyphicon glyphicon-tasks"></span><a href="#">Products</a></td></tr>
-                        <tr><td><span class="glyphicon glyphicon-shopping-cart"></span><a href="#">Shopping Cart</a></td></tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-file">
-                        </span>B2C</a>
-                </h4>
-            </div>
-            <div id="collapseFive" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <table class="table">
-                        <tr><td><span class="glyphicon glyphicon-usd"></span><a href="#">Sales</a></td></tr>
-                        <tr><td><span class="glyphicon glyphicon-user"></span><a href="#">Customers</a></td></tr>
-                        <tr><td><span class="glyphicon glyphicon-tasks"></span><a href="#">Products</a></td></tr>
-                        <tr><td><span class="glyphicon glyphicon-shopping-cart"></span><a href="#">Shopping Cart</a></td></tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix"><span class="glyphicon glyphicon-info-sign">
-                        </span>Insurance</a>
-                </h4>
-            </div>
-            <div id="collapseSix" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <table class="table">
-                        <tr><td><span class="glyphicon glyphicon-usd"></span><a href="#">Sales</a></td></tr>                        
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
                 <div class="col-sm-9 col-md-9" >
                     <div class="col-lg-4">
 
